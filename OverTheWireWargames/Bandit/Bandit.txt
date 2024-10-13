@@ -1,0 +1,255 @@
+Bandit 
+-------------------------------------------------------
+Lvl 0
+
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+Entered the password : bandit0
+
+ls
+cat readme
+
+Password for lvl 1 : ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+-------------------------------------------------------
+Lvl 1
+
+ssh bandit1@bandit.labs.overthewire.org -p 2220
+Entered the password:  ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+
+ls
+cat < -
+Password for lvl 2: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx 
+-------------------------------------------------------
+Lvl 2
+
+ssh bandit2@bandit.labs.overthewire.org -p 2220
+Entered the password:  263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+
+ls
+cat spaces\ in\ this\ filename
+Password for lvl 3:  MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+-------------------------------------------------------
+Lvl 3
+
+ssh bandit3@bandit.labs.overthewire.org -p 2220
+Entered the password:  MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+
+ls
+cd inhere
+ls -la
+cat ...Hiding-From-You
+Password for lvl 4:  2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+-------------------------------------------------------
+Lvl 4
+
+ssh bandit4@bandit.labs.overthewire.org -p 2220
+Entered the password:  2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+ls
+cd inhere
+ls
+file ./*
+cat < file07
+
+
+Password for lvl 5:  4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+-------------------------------------------------------
+Lvl 5
+
+ssh bandit5@bandit.labs.overthewire.org -p 2220
+Entered the password:  4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+ls
+cd inhere
+find ./ -type f -size 1033c ! -executable
+cat ./maybehere07/.file2
+
+Password for lvl 6: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG  
+-------------------------------------------------------
+Lvl 6
+
+ssh bandit6@bandit.labs.overthewire.org -p 2220
+Entered the password:  HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+ls
+find / -type f -user bandit7 -group bandit6 -size 33c 2</dev/null
+cat /var/lib/dpkg/info/bandit7.password
+
+Password for lvl 7:   morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
+-------------------------------------------------------
+Lvl 7
+
+ssh bandit7@bandit.labs.overthewire.org -p 2220
+Entered the password:  morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
+ls
+grep 'millionth' data.txt
+
+Password for lvl 8:   dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+-------------------------------------------------------
+Lvl 8
+
+ssh bandit8@bandit.labs.overthewire.org -p 2220
+Entered the password:  dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+ls
+sort data.txt | uniq -u
+
+Password for lvl 9:   4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+
+-------------------------------------------------------
+Lvl 9
+
+ssh bandit9@bandit.labs.overthewire.org -p 2220
+Entered the password:  4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+
+ls
+strings data.txt | grep '=='
+
+Password for lvl 10:   FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+
+-------------------------------------------------------
+Lvl 10
+
+ssh bandit10@bandit.labs.overthewire.org -p 2220
+Entered the password:  FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+
+ls
+cat data.txt | base64 --decode
+
+Password for lvl 11:   dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+-------------------------------------------------------
+Lvl 11
+
+ssh bandit11@bandit.labs.overthewire.org -p 2220
+Entered the password:  dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+
+ls
+cat data.txt | tr '[A-Za-z]' '[N-ZA-Mn-za-m]'
+
+Password for lvl 12:   7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+-------------------------------------------------------
+Lvl 12
+
+ssh bandit12@bandit.labs.overthewire.org -p 2220
+Entered the password:  7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+
+ls
+mkdir /tmp/razvan123
+cp data.txt /tmp/razvan123
+cd /tmp/razvan123
+ls
+cat data.txt
+xxd -r data.txt > data1
+ls
+file data1
+gunzip -c data1>data2
+ls
+file data2
+bunzip2 -c data2>data3
+ls
+file data3
+gunzip -c data3>data4
+ls
+file data4
+tar -xf data 4
+ls
+file data5.bin
+tar -xf data5.bin
+ls
+tar -xf data6.bin
+file data6.bin
+bunzip2 -c data6.bin>file7
+ls
+file file7
+file data8.bin
+gunzip -c data8.bin>data9
+file data9
+cat data9
+
+Password for lvl 13:   FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+-------------------------------------------------------
+Lvl 13
+
+ssh bandit13@bandit.labs.overthewire.org -p 2220
+Entered the password:  FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+
+ls
+ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220
+
+-------------------------------------------------------
+Lvl 14
+
+cat /etc/bandit_pass/bandit14 | nc localhost 30000
+
+Password for lvl 15: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+
+-------------------------------------------------------
+Lvl 15
+
+cat /etc/bandit_pass/bandit15
+openssl s_client -connect localhost:30001
+Enter pass: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+
+Password for lvl 16: kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+-------------------------------------------------------
+Lvl 16
+ssh bandit16@bandit.labs.overthewire.org -p 2220
+Enter pass: kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+
+cat /etc/bandit_pass/bandit16
+nmap -sV -T4 -p 31000-32000 localhost
+openssl s_client -connect localhost:31790 -quiet
+cd /tmp/myprivatekey
+nano key.pem // peste RSA PRIVATE KEY
+chmod 400 key.pem
+ssh -i key.pem  bandit17@bandit.labs.overthewire.org -p 2220
+cat /etc/bandit_pass/bandit17
+
+Password for lvl 17: EReVavePLFHtFlFsjn3hyzMlvSuSAcRD
+-------------------------------------------------------
+Lvl 17
+ssh bandit17@bandit.labs.overthewire.org -p 2220
+Enter pass: EReVavePLFHtFlFsjn3hyzMlvSuSAcRD
+
+diff passwords.new passwords.old
+
+Password for lvl 18: x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
+
+-------------------------------------------------------
+Lvl 18
+ssh bandit18@bandit.labs.overthewire.org -p 2220 "cat ~/readme"
+Enter pass: x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
+
+
+Password for lvl 19: cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
+
+-------------------------------------------------------
+Lvl 19
+ssh bandit19@bandit.labs.overthewire.org -p 2220 
+Enter pass: cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
+
+
+./bandit20-do
+./bandit20-do id
+./bandit20-do cat /etc/bandit_pass/bandit20
+
+Password for lvl 20: 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+
+-------------------------------------------------------
+Lvl 20
+ssh bandit20@bandit.labs.overthewire.org -p 2220 
+Enter pass: 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+
+ls
+echo -n '0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO' | nc -l -p 1234 &
+./suconnect 1234
+
+Password for lvl 21: EeoULMCra2q0dSkYj561DX7s1CpBuOBt 
+
+
+
+
+
