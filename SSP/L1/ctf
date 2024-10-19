@@ -1,0 +1,19 @@
+SSP
+
+L1
+------------------
+Reverse kitten
+
+sudo -l 
+/usr/bin/tac flag
+
+------------------
+Hit me hard
+
+getcap -r /usr/bin
+/usr/bin/rev flag | /usr/bin/rev
+
+------------------
+Can't find me
+
+grep -r "{*}" database
